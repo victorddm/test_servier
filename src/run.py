@@ -30,9 +30,3 @@ def main():
         graph_file = json.dumps(graph, indent=4)
         file.write(graph_file)
     visualize_graph(graph)
-    visualize_graph_unique_journal(graph)
-
-
-
-if __name__ == "__main__":
-    main()
