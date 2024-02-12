@@ -3,23 +3,8 @@
 
 ## Table of Contents
 I. [DAG Visualization](#I.-DAG-Visualization)
-
-   a. [Installation](#Installation)
-   
-   b. [To go further](#To-go-further)
-   
-   c. [Practical Steps for Implementation](#Practical-Steps-for-Implementation)
-   
-   d. [Company revenue by day](#Company-revenue-by-day)
-   
-   e. [Sales by customer and product type](#Sales-by-customer-and-product-type)
-
 II. [SQL](#II.-SQL)
     
-   a. [Company revenue by day](#Company-revenue-by-day)
-   
-   b. [Sales by customer and product type](#Sales-by-customer-and-product-type)
-
 ## I. DAG Visualization
 This project aims to analyze and visualize the relationships between drugs and the scientific journals that mention them. Utilizing data extracted from articles and clinical trials, the project constructs a Directed Acyclic Graph (DAG) to illustrate how various drugs are mentioned across different journals. The goal is to provide insights into the frequency and nature of drug mentions, thereby facilitating a better understanding of trends in medical research.
 

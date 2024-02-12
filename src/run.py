@@ -3,7 +3,7 @@ from src.loading import load_csv_data, load_json_data
 from src.preprocess import preprocess_clinical_trials, preprocess_pubmed_articles, preprocess_drugs
 from src.mentions_analysis import analyze_drug_mentions
 from src.graph import create_graph_dict
-from src.visualization import visualize_graph_unique_journal, visualize_graph
+from src.visualization import visualize_graph
 import json
 
 
@@ -30,9 +30,3 @@ def main():
         graph_file = json.dumps(graph, indent=4)
         file.write(graph_file)
     visualize_graph(graph)
-    visualize_graph_unique_journal(graph)
-
-
-
-if __name__ == "__main__":
-    main()
