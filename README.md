@@ -11,19 +11,28 @@ This project aims to analyze and visualize the relationships between drugs and t
 # Installation
 To run this project locally, follow these steps:
 
-Clone the project repository
+1. Clone the project repository
 
 `git clone https://github.com/victorddm/test_servier.git`
 
-Install the required dependencies:
+` cd Test_Servier `
+
+2. Create a virtual environment and install requirements
+
+Manually
+`python -m venv venv `
+
+`. ./venv/bin/activate `
 
 `pip install -r requirements.txt`
 
-Run the main script:
+3. Run the main script:
+
 `python src/run.py`
 
-if the script is not working because the python path is not well defined, you can run the following command:
-`export PYTHONPATH="${PYTHONPATH}:/path/to/your/project"`
+if the script is not working because the python path is not well defined, you can run the following command at the root of the project:
+
+`PYTHONPATH=. python src/run.py`
 
 You can find the json file describing the graph in the `output/describe_graph.json` folder.
 
